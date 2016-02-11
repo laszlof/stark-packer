@@ -37,7 +37,16 @@
       "output": "stark-cent6.7.box",
       "compression_level": "6",
       "type": "vagrant"
+    }, {
+      "type": "atlas",
+      "only": ["virtualbox-iso"],
+      "artifact": "nexcess/stark-cent6.7",
+      "artifact_type": "vagrant.box",
+      "metadata": {
+        "provider": "virtualbox"
+      }
     }
+
   ],
 
   "provisioners": [
