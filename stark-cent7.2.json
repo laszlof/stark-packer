@@ -36,7 +36,10 @@
     {
       "output": "stark-cent7.2.box",
       "compression_level": "6",
-      "type": "vagrant"
+      "type": "vagrant",
+      "token": "{{user `atlas_token`}}",
+      "artifact": "nexcess/stark-cent7.2",
+      "artifact_type": "vagrant.box"
     }
   ],
 
