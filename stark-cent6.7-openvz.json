@@ -56,7 +56,6 @@
     "override": {
         "virtualbox-iso": {
           "scripts": [
-            "scripts/base.sh",
             "scripts/openvz.sh",
             "scripts/vagrant.sh",
             "scripts/virtualbox.sh",
