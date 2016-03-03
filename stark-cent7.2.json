@@ -35,7 +35,6 @@
       "vm_name": "centos-vm",
       "boot_wait": "10s",
       "disk_size": 40000,
-      "guest_os_type": "RedHat_64",
       "format": "qcow2",
       "http_directory": "http",
 
