@@ -54,7 +54,7 @@
       "net_device": "virtio-net",
       "disk_interface": "virtio",
       "ssh_wait_timeout": "60m",
-      "output_directory": "builds",
+      "output_directory": "builds"
     }
   ],
 
